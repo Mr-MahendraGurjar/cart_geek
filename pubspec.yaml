@@ -1,0 +1,56 @@
+name: cart_geek
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+  provider: ^6.1.2
+  assets_gen: 1.5.0
+  dio: ^5.7.0
+  pretty_dio_logger: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/pngs/
+    - assets/svgs/
+    - assets/fonts/
+
+  fonts:
+     - family: alegreya
+       fonts:
+        - asset: assets/fonts/AlegreyaSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/AlegreyaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/AlegreyaSans-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/AlegreyaSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/AlegreyaSans-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/AlegreyaSans-Black.ttf
+          weight: 900
+
+assets_gen:
+  gen_package_path: false
+  code_style: "lowercase_with_underscores"
+  format_dart_code: true

@@ -1,0 +1,23 @@
+
+const String alegreya = 'alegreya';
+const String home = 'Home';
+const String packages = 'Packages';
+const String bookings = 'Bookings';
+const String profile = 'Profile';
+const String welcome = 'Welcome';
+const String emilyCyrus = 'Emily Cyrus';
+const String bookANanny = 'Book A Nanny';
+const String howItWorks = 'How It Works';
+const String whyNannyVanny = 'Why Nanny Vanny';
+const String myBookings = 'My Bookings';
+const String myProfile = 'My Profile';
+const String support = 'Support';
+const String oneDayPackage = 'One Day Package';
+const String bookNow = 'Book now';
+const String start = 'Start';
+const String from = 'From';
+const String to = 'to';
+const String rateUs = 'Rate Us';
+const String geolocation = 'Geolocation';
+const String survillence = 'Survillence';
+const String yourCurrentBooking = 'Your Current Booking';
